@@ -29,8 +29,7 @@ Open index.html in your browser, or run it with a live server extension (e.g. Li
 └── assets/
     └── (images and illustrations)
 📸 Preview
-https://github.com/gabrielmartinsrenan-hub/Dev-Club-Projects-/blob/main/Estudos/estudocss.html/assets/chrome_lXIBVay2xc.gif?raw=true
-Add a screenshot of your project here so visitors can see it without running the code.
+<img src="https://github.com/gabrielmartinsrenan-hub/Dev-Club-Projects-/blob/main/Estudos/estudocss.html/assets/chrome_lXIBVay2xc.gif?raw=true"/>
 
 📄 License
 
