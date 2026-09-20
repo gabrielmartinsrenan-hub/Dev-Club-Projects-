@@ -1,0 +1,180 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img-logo {
+    width: 568px;
+    height: 500px;
+    margin-left: 125px;
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+}
+
+header {
+    margin: 44px 0 144px 76px;
+}
+
+.link-header {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    color: #989D9C;
+    cursor: pointer;
+    margin-right: 23px;
+}
+
+.button-header {
+    background: #665ae1;
+    border-radius: 20.5px;
+    width: 130px;
+    height: 41px;
+    border: none;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #989D9C;
+}
+
+section {
+    display: inline-block;
+    margin-left: 86px;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 122px;
+    color: #515151;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 71px;
+    color: #515151;
+}
+
+p {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    width: 515px;
+    margin-top: 32px;
+    margin-bottom: 65px;
+    color: #848484;
+}
+
+.button1 {
+    background: #ADFF00;
+    border-radius: 30px;
+    width: 239px;
+    height: 64px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 100%;
+    margin-bottom: 200px;
+    margin-right: 200px;
+}
+
+/* ==== Responsivo: tablets (até 1024px) ==== */
+@media (max-width: 1024px) {
+    header {
+        margin: 24px 32px;
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 12px;
+    }
+
+    .img-logo {
+        width: 100%;
+        margin-left: 0;
+        display: block;
+        margin: 0 auto;
+    }
+
+    section {
+        margin-left: 32px;
+        margin-right: 32px;
+        display: block;
+        text-align: center;
+    }
+
+    p {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .button1 {
+        margin: 0 auto 60px;
+        display: block;
+    }
+}
+
+/* ==== Responsivo: celulares (até 480px) ==== */
+@media (max-width: 480px) {
+    header {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        margin: 16px 8px;
+        gap: 6px 10px;
+    }
+
+    .link-header {
+        font-size: 11px;
+        margin-right: 0;
+        white-space: nowrap;
+    }
+
+    .button-header {
+        width: 64px;
+        height: 28px;
+        font-size: 11px;
+        flex-shrink: 0;
+        white-space: nowrap;
+    }
+}
+
+    .img-logo {
+        height: auto;
+    }
+
+    section {
+        margin: 24px 16px 0;
+    }
+
+    h1 {
+        font-size: 44px;
+        line-height: 50px;
+    }
+
+    h2 {
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 16px;
+        margin-bottom: 32px;
+    }
+
+    .button1 {
+        width: 100%;
+        max-width: 239px;
+        height: 56px;
+        font-size: 20px;
+        margin-bottom: 60px;
+    }
